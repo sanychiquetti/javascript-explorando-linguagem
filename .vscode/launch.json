@@ -1,0 +1,37 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node", //tipo da execução
+            "request": "launch",  // aqui ele inicia uma apuração do zero
+            "name": "8-loops", // aqui nós podemos alterar o nome da pasta para ficar fácil achar 
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\projeto-incial\\8-loops.js" // ele criou uma pasta com o nome do arquivo depurado
+        },
+        
+        {
+            "type": "node", //tipo da execução
+            "request": "launch",  // aqui ele inicia uma apuração do zero
+            "name": "7.2-condicionaisFluxoExecucao", // aqui nós podemos alterar o nome da pasta para ficar fácil achar 
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\projeto-incial\\7.2-condicionaisFluxoExecucao.js" // ele criou uma pasta com o nome do arquivo depurado
+        },
+
+        {
+            "type": "node", //tipo da execução
+            "request": "launch",  // aqui ele inicia uma apuração do zero
+            "name": "8.1-loopsFor", // aqui nós podemos alterar o nome da pasta para ficar fácil achar 
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\projeto-incial\\8.1-loopsFor" // ele criou uma pasta com o nome do arquivo depurado
+        },
+    ]
+}
